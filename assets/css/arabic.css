@@ -1,0 +1,169 @@
+/* Arabic homepage: shared design with right-to-left typography and layout. */
+html[lang=ar] body{font-family:Tahoma,'Segoe UI',Arial,sans-serif}
+html[lang=ar] h1,html[lang=ar] h2,html[lang=ar] h3{font-family:Tahoma,'Segoe UI',Arial,sans-serif;letter-spacing:0}
+.hero-photo{transform:none}
+.hero-photo.foreground{background-image:linear-gradient(180deg,rgba(44,19,22,.5),transparent 45%),radial-gradient(ellipse at 50% 40%,rgba(85,8,20,.5),transparent),url('../images/d7d67.png')}
+.hero-content{text-align:right}
+.hero .eyebrow{letter-spacing:0;font-size:20px;line-height:38px}
+.hero h1{font-size:54px;line-height:1.4;font-weight:400;margin:8px 0;max-width:650px}
+.hero-description{line-height:1.85;max-width:590px;margin-inline-end:auto;font-size:17px}
+.hero-signature{font-family:Tahoma,Arial,sans-serif;font-size:40px;line-height:1.5;margin-top:-20px;opacity:.16}
+.hero .button{margin-top:38px}
+.eyebrow{letter-spacing:0;line-height:1.8}
+.about-copy h2{font-size:40px;line-height:1.5}
+.about-copy>p:not(.eyebrow):not(.signature){line-height:1.9;font-size:16px;margin-bottom:14px}
+.signature{font-family:Tahoma,Arial,sans-serif;font-size:18px;line-height:1.8}
+.about-copy .eyebrow{margin-bottom:10px}
+.credential h2{font-family:Tahoma,Arial,sans-serif;font-size:23px;line-height:1.5}
+.credential p{font-size:15px}
+.practice h2{font-size:42px;line-height:1.5}
+.service-copy{margin:17.318px 29px 0 0}
+.service-copy h3{font-size:25px;line-height:1.6;min-height:47px}
+.service-copy p{font-size:13px;line-height:1.8}
+.carousel-controls button:first-child img{transform:none}
+.carousel-controls button:last-child img{transform:rotate(180deg)}
+.why-intro h2{font-size:30px;line-height:1.5}
+.why-intro>p:last-child{font-size:17px;line-height:1.9}
+.reason h3{font-size:26px;line-height:1.5}
+.reason p{font-size:16px;line-height:1.85}
+.reason-number{font-family:Tahoma,Arial,sans-serif;direction:ltr}
+.contact-content h2{font-size:42px;line-height:1.5}
+.contact-content>p{line-height:1.9}
+.form-fields label{font-size:15px;line-height:1.7}
+.form-fields input,.form-fields textarea{text-align:right}
+.form-fields input[type=email],.form-fields input[type=tel]{direction:ltr;text-align:right}
+.office h3{font-family:Tahoma,Arial,sans-serif;line-height:1.5;font-size:24px}
+.office-info a,.office-info p,.office-hours p{line-height:1.8}
+.quick-contact a[href^='mailto:'],.office-info a[href^='mailto:']{direction:ltr;unicode-bidi:isolate}
+.quick-contact a[href^='mailto:']{flex-direction:row-reverse}
+.office-info a[href^='mailto:']{flex-direction:row-reverse;justify-content:flex-end}
+.hours{white-space:nowrap}
+.search-panel{right:auto;left:6%;text-align:right}
+.dialog-close{right:auto;left:10px}
+.copyright p{line-height:1.8}
+@media(min-width:1200px){.about{height:auto;min-height:689px}.why-intro{height:auto;min-height:560px}.why{min-height:720px}.contact{height:auto;min-height:1024px}.contact-panel{min-height:700px}.contact-grid{height:auto;min-height:378px}.contact-content{padding-top:60px;padding-bottom:65px}.contact-content>p:not(.contact-note){min-height:37px}}
+@media(max-width:1199px){.service-copy{margin-right:10px;margin-left:0}.about-copy h2{font-size:34px}.reason h3{font-size:24px}}
+@media(max-width:767px){.menu-toggle{margin-left:0;margin-right:auto}.brand,.brand img{width:165px;height:55px}.hero:after{background:linear-gradient(270deg,rgba(85,8,20,.85),rgba(85,8,20,.32))}.hero .eyebrow{font-size:14px;line-height:1.9}.hero h1{font-size:36px;line-height:1.55}.hero-description{font-size:15px;line-height:1.9}.hero-signature{font-size:32px;margin-top:0}.hero .button{margin-top:20px}.hero-content{padding-top:65px}.about-copy h2{font-size:31px}.about-copy>p:not(.eyebrow):not(.signature){font-size:15px}.practice h2{font-size:30px}.why-intro h2{font-size:27px}.reason h3{font-size:23px}.reason p{font-size:15px}.contact-content h2{font-size:32px}.copyright p{font-size:12px}.language-menu{font-size:14px}}
+@media(max-width:767px){.hero-photo.foreground{background-size:100% 100%,100% 100%,auto 910px;background-position:center,center,31% top}}
+
+/* Arabic review: mirror decorative direction and give the office details room. */
+.about-copy > .button,
+.contact-form > .button { padding:3px 3px 0 0; }
+.about-copy > .button::before,
+.contact-form > .button::before { inset:0 0 3px 3px; }
+.about-copy > .button::after,
+.contact-form > .button::after { inset:3px 3px 0 0; }
+.hero .button.light::before { inset:-4px -4px 3px 3px; }
+.card-surface { transform:scaleX(-1); }
+.portrait-frame { transform:scaleX(-1); }
+.portrait-crop { left:0;right:41px; }
+.portrait-detail { left:16px;right:auto; }
+.brand img { transform:scaleX(-1); }
+.contact { height:auto;min-height:0; }
+.office {
+  grid-template-columns:234px minmax(0,1fr) 180px;
+  column-gap:40px;
+  padding-block:72px 60px;
+  align-items:start;
+}
+.office-info { min-width:0; }
+.office-info p { width:100%;margin-bottom:0; }
+.office-info p > span { display:block;flex:1;min-width:0;line-height:2; }
+.office-hours p:last-child { margin-bottom:0; }
+.footer-socials { align-self:end; }
+@media(max-width:1199px) {
+  .office { grid-template-columns:200px minmax(0,1fr) 160px;gap:30px; }
+  .portrait-crop { left:0;right:9%; }
+  .portrait-detail { left:15px;right:auto; }
+}
+@media(max-width:767px) {
+  .office { grid-template-columns:1fr;row-gap:32px;padding-block:48px; }
+  .office-info p > span { line-height:1.9; }
+  .footer-socials { justify-self:start; }
+}
+/* Reverse logo composition while keeping the name readable. */
+.brand { --brand-size:216px;--brand-symbol-width:64px;position:relative;display:block;height:72px; }
+.brand-wordmark,.brand-symbol { position:absolute;top:0;height:100%;overflow:hidden; }
+.brand-wordmark { left:0;width:calc(var(--brand-size) - var(--brand-symbol-width)); }
+.brand-symbol { right:0;width:var(--brand-symbol-width);transform:scaleX(-1); }
+.brand img { position:absolute;top:0;transform:none;width:var(--brand-size);height:calc(var(--brand-size) / 3); }
+.brand-wordmark img { left:calc(-1 * var(--brand-symbol-width)); }
+.brand-symbol img { left:0; }
+@media(max-width:767px){.brand{--brand-size:165px;--brand-symbol-width:49px;height:55px}}
+.office-info a[href^='mailto:'] { justify-content:flex-start; }
+@media(min-width:1200px){.office-info p{width:calc(100% + 220px)}}
+@media(min-width:768px) and (max-width:1199px){.office-info p{width:calc(100% + 190px)}}
+.brand { --brand-symbol-width:74px; }
+@media(max-width:767px){.brand{--brand-symbol-width:57px}}
+
+.search-panel{right:auto;left:max(32px,calc((100% - 1264px)/2))}
+.search-panel label{font-family:Tahoma,'Segoe UI',Arial,sans-serif;font-size:27px;line-height:1.6;letter-spacing:0}
+.search-panel .search-eyebrow,.search-shortcuts>p{font-family:inherit;letter-spacing:0}
+.search-panel .search-description{line-height:1.9}
+.search-panel .search-field input{font-family:inherit;text-align:right}
+.search-panel .search-submit{font-family:inherit}
+@media(max-width:767px){.search-panel{right:auto;left:20px}.search-panel label{font-size:24px}}
+
+.hero .eyebrow{letter-spacing:0;font-size:19px}
+.why-intro h2{font-size:29px}
+@media(max-width:767px){.hero .eyebrow{font-size:14px;letter-spacing:0}}
+@font-face {
+  font-family: 'Aref Ruqaa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/aref-ruqaa-400.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/tajawal-400.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/tajawal-500.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/tajawal-700.ttf) format('truetype');
+}
+
+/* Arabic typography and restored multi-line office address. */
+html[lang=ar] body { font-family:'Tajawal',sans-serif; }
+html[lang=ar] h1,html[lang=ar] h2,html[lang=ar] h3,
+.office h3,.credential h2,.search-panel label,
+.form-fields label,.signature { font-family:'Tajawal',sans-serif; }
+html[lang=ar] h1,html[lang=ar] h2,html[lang=ar] h3 { font-weight:500; }
+.nav-links,.button { font-weight:700; }
+.hero-description { font-size:18px;line-height:1.8; }
+.about-copy>p:not(.eyebrow):not(.signature) { font-size:17px;line-height:1.8; }
+.hero-signature,.signature { font-family:'Aref Ruqaa',serif;font-weight:400;letter-spacing:0; }
+.hero-signature { font-size:64px;line-height:1;height:64px;margin-top:-12px;opacity:.24; }
+.signature { font-size:34px;line-height:1.5;margin-block:14px 20px; }
+.brand { --brand-symbol-width:66.5px; }
+.office { grid-template-columns:1fr 287px 180px;column-gap:56px; }
+.office-info p { width:100%; }
+.office-info p>span { line-height:1.8; }
+@media(max-width:1199px){.office{grid-template-columns:1fr 287px 160px;gap:30px}}
+@media(max-width:767px){.brand{--brand-symbol-width:50.8px}.hero-description{font-size:16px}.hero-signature{font-size:48px;line-height:1.2;height:58px}.signature{font-size:30px}.about-copy>p:not(.eyebrow):not(.signature){font-size:16px}.office{grid-template-columns:1fr;row-gap:32px}}
+
+.brand { --brand-symbol-width:68px; }
+@media(max-width:767px){.brand{--brand-symbol-width:52px}}
+
+.brand { --brand-symbol-width:70.5px; }
+@media(max-width:767px){.brand{--brand-symbol-width:53.85px}}
+
+html[lang=ar] .hero h1{white-space:nowrap;font-size:clamp(26px,4.5vw,54px);max-width:none}
+
+@media(min-width:992px){.brand{--brand-size:189px;--brand-symbol-width:61.7px;height:63px}.brand img{width:var(--brand-size);height:63px}}
+@media(max-width:991px){.menu-toggle{margin:0;margin-inline-start:auto}}
+@media(max-width:767px){.brand{--brand-size:150px;--brand-symbol-width:49px;width:150px;height:50px;flex-shrink:0}.brand img{width:var(--brand-size);height:50px;max-width:none}}
+@media(max-width:359px){.brand{--brand-size:118px;--brand-symbol-width:38.5px;width:118px;height:40px}.brand img{width:var(--brand-size);height:40px}}
