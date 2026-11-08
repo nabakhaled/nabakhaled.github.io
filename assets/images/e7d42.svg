@@ -1,0 +1,20 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="profile_icon copy" clip-path="url(#clip0_0_178)">
+<g id="Mask">
+</g>
+<mask id="mask0_0_178" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="22" height="26">
+<path id="Mask_2" d="M20 13.9784C20 13.9784 16 15.9753 14 18.9044C12 21.8335 12 26 12 26L2 25.9599H0V0H22L20 13.9784Z" fill-rule="evenodd" clip-rule="evenodd" fill="white"/>
+</mask>
+<g mask="url(#mask0_0_178)">
+<ellipse id="Oval 3 Copy" cx="12.2224" cy="18.5352" rx="8.14815" ry="6.75391" stroke="#550814" stroke-width="1.5"/>
+<g id="profile_icon copy_2">
+<ellipse id="Oval 3" cx="12.2222" cy="7.92188" rx="4.07407" ry="3.85938" stroke="#550814" stroke-width="1.5"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_178">
+<rect width="22" height="18" fill="white"/>
+</clipPath>
+</defs>
+</svg>

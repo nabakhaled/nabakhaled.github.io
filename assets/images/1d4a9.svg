@@ -1,0 +1,6 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="stroke0_0_163" fill="white">
+<path d="M7 0C10.866 0 14 2.52944 14 7.5C14 12.4706 7 18 7 18C7 18 0 12.4706 0 7.5C0 2.52944 3.13401 0 7 0ZM7 4C5.34315 4 4 5.34315 4 7C4 8.65685 5.34315 10 7 10C8.65685 10 10 8.65685 10 7C10 5.34315 8.65685 4 7 4Z"/>
+</mask>
+<path id="Combined Shape" d="M7 0C10.866 0 14 2.52944 14 7.5C14 12.4706 7 18 7 18C7 18 0 12.4706 0 7.5C0 2.52944 3.13401 0 7 0ZM7 4C5.34315 4 4 5.34315 4 7C4 8.65685 5.34315 10 7 10C8.65685 10 10 8.65685 10 7C10 5.34315 8.65685 4 7 4Z" stroke-width="2" stroke="#161B24" mask="url(#stroke0_0_163)"/>
+</svg>
